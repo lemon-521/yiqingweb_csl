@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/top.jpg">
+    <!-- <img src="./assets/top.jpg"> -->
     <router-view/>
   </div>
 </template>
@@ -12,10 +12,10 @@ export default {
 </script>
 
 <style>
-img{
+/* img{
   width: 100%;
   height:250px;
-}
+} */
 /* #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -14,7 +14,9 @@
       <font-awesome-icon icon="spinner" flip="horizontal" />
       <font-awesome-icon icon="spinner" flip="vertical" />
       <font-awesome-icon icon="spinner" flip="both" /> -->
-
+      
+      <img src="../assets/top.jpg">
+      
       <h3>全球新冠疫情</h3>
       <p class="txt">来源：各国权威数据每日发布</p>
       <p class="txt">更新：{{ nowDate }}  {{ nowTime }}(北京时间)</p>
@@ -1566,6 +1568,10 @@ var echarts = require("../../node_modules/echarts/lib/echarts.js");
 
 <style scoped>
   /* //scoped用来表示只对当前页面生效*/
+  img{
+    width: 100%;
+    height:250px;
+  }
   .cities{
     display: none;
   }
